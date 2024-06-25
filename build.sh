@@ -1,4 +1,4 @@
 #!/bin/sh
 
-g++ ./main.cpp -o main && \
+g++ -Wall -Wextra main.cpp lexer.cpp -o main && \
     ./main source.ncc
